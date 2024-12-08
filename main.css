@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #516770;
+    padding: 20px;
+}
+header h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+header:hover{
+    background-color: #648c9c;
+}
+.list-product {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin:20px 600px;
+    
+}
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding:10px;
+    align-items: center;
+    width: 300px;
+    margin:20px 600px;
+    text-align: center;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+    
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 16px;
+}
+.product button {
+    background-color: #28a745;
+    color: white;
+    border: none; /*Bỏ viền*/
+    padding: 10px 20px; /*Tạo khoảng cách trên dưới 10px, trái phải 20px */
+    border-radius: 5px; /*Bo góc cong*/
+    cursor: pointer;/*Chuyển trỏ chuột thành bàn tay*/
+}
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+form label {
+    margin: 10px 0 5px;
+
+}
+
+form input, form textarea {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+footer{
+    background-color: #333333;
+    text-align: center;
+    padding:20px;
+}
+footer p{
+    color:white;
+}
